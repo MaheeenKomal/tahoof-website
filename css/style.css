@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+@font-face {
+    font-family: 'Javanese Text';
+    src: url(../fonts/javatext.ttf);
+}
+
+@font-face {
+    font-family: 'Font Awesome';
+    src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2") format("woff2");
+}
+
+
+/* when using animations use this to avoid scrollbars!
+body::-webkit-scrollbar {
+display: none;
+} */
+
+ ::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+ ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0px rgb(0 0 0 / 30%);
+}
+
+ ::-webkit-scrollbar-thumb {
+    background-color: #918476;
+    border-radius: 20px 124px 20px 124px;
+}
+
+.container {
+    max-width: 1670px;
+    padding: 0px 15px;
+    width: 100%;
+    margin: auto;
+}
+
